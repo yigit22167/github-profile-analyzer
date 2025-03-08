@@ -4,7 +4,7 @@ import UserStats from "./UserStats";
 import { useQueries, useQuery } from "@tanstack/react-query";
 import Loading from "./Loading";
 import Error from "./Error";
-import { fetchUserData, fetchUserRepos } from "../services/GithubAPI";
+import { fetchUserData, fetchUserRepos } from "../services/githubAPI";
 import UserLanguagesChart from "./charts/UserLanguagesChart";
 import RepoCard from "./RepoCard";
 
