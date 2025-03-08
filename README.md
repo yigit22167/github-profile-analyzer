@@ -41,5 +41,5 @@ You can check out the live demo of the project [here](https://gitrepostats.verce
    ```sh
    npm run dev
 
- Status
+### Status
 This project is currently a work in progress (WIP).
