@@ -1,6 +1,6 @@
 import { useQueries } from "@tanstack/react-query";
 import React from "react";
-import { fetchUserRepoLanguages } from "../../services/GithubAPI";
+import { fetchUserRepoLanguages } from "../../services/githubAPI";
 import { Chart as ChartJS, ArcElement, Tooltip, Legend } from "chart.js";
 import { Pie } from "react-chartjs-2";
 import {
