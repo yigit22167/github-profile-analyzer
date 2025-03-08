@@ -14,7 +14,11 @@ This project is a **GitHub Profile Analyzer** that allows users to visualize Git
 - **Frontend:** React, TailwindCSS  
 - **State Management:** React Query  
 - **Charts:** Chart.js  
-- **API:** GitHub REST API  
+- **API:** GitHub REST API
+
+## Live Demo
+
+You can check out the live demo of the project [here](https://gitrepostats.vercel.app/).
 
 ## ⚡ How to Run Locally  
 1. Clone the repository:  
