@@ -6,8 +6,8 @@ import { FaGithub } from "react-icons/fa";
 const SearchForm = ({ searchTerm, setSearchTerm, handleSubmit }) => {
   return (
     <div className="flex flex-col items-center py-24 mb-8">
-      <div className="text-center flex items-center py-12 text-4xl text-slate-300">
-        <FaGithub className="text-5xl mr-4" />
+      <div className="text-center flex items-center px-4 py-12 text-4xl text-slate-300">
+        <FaGithub className="text-5xl" />
         Analyze Github User
       </div>
       <form
