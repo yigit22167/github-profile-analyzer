@@ -1,6 +1,6 @@
 import { useQueries } from "@tanstack/react-query";
 import React from "react";
-import { fetchUserRepoLanguages } from "../../services/GithubAPI";
+import { fetchUserRepoLanguages } from "../../services/githubAPI";
 import { Chart as ChartJS, ArcElement, Tooltip, Legend } from "chart.js";
 import { Pie } from "react-chartjs-2";
 import {
@@ -43,7 +43,7 @@ const UserLanguagesChart = ({ reposData }) => {
   };
 
   return (
-    <div className="flex mt-6 justify-center h-120 xs:p-4 text-slate-400">
+    <div className="flex justify-center h-120 xs:p-4 text-slate-400">
       <Pie data={data} />
     </div>
   );
