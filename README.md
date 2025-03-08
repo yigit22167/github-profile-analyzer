@@ -1,8 +1,8 @@
-# GitHub Profile Analyzer 🚀  
+# GitHub Profile Analyzer  
 
 This project is a **GitHub Profile Analyzer** that allows users to visualize GitHub repositories, language usage, and commit activity in an interactive way.  
 
-## 📌 Features (Planned & Implemented)
+## Features (Planned & Implemented)
 - ✅ Display a list of a GitHub user's repositories.  
 - ✅ Show key repo details (name, fork count, star count).  
 - ✅ Interactive **Pie Chart** for programming language distribution.  
@@ -10,7 +10,7 @@ This project is a **GitHub Profile Analyzer** that allows users to visualize Git
 - ⏳ Improve UI & responsiveness.  
 - ⏳ Add more data insights (contributions, issues, PRs, etc.).  
 
-## 🛠️ Tech Stack  
+## Tech Stack  
 - **Frontend:** React, TailwindCSS  
 - **State Management:** React Query  
 - **Charts:** Chart.js  
@@ -20,7 +20,7 @@ This project is a **GitHub Profile Analyzer** that allows users to visualize Git
 
 You can check out the live demo of the project [here](https://gitrepostats.vercel.app/).
 
-## ⚡ How to Run Locally  
+## How to Run Locally  
 1. Clone the repository:  
    ```sh
    git clone https://github.com/yourusername/github-profile-analyzer.git
@@ -41,5 +41,5 @@ You can check out the live demo of the project [here](https://gitrepostats.verce
    ```sh
    npm run dev
 
-📌 Status
-This project is currently a work in progress (WIP). Contributions and suggestions are welcome! 🎉
+ Status
+This project is currently a work in progress (WIP).
