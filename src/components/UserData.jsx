@@ -1,5 +1,5 @@
 import React from "react";
-import UserCard from "./UserCard";
+import UserInfoCard from "./UserInfoCard";
 import UserStats from "./UserStats";
 import { useQueries } from "@tanstack/react-query";
 import Loading from "./Loading";
@@ -7,6 +7,8 @@ import Error from "./Error";
 import { fetchUserData, fetchUserRepos } from "../services/githubAPI";
 import UserLanguagesChart from "./charts/UserLanguagesChart";
 import RepoCard from "./RepoCard";
+import UserHeader from "./UserHeader";
+import UserRepos from "./UserRepos";
 
 const UserData = ({ username }) => {
   const results = useQueries({
@@ -35,31 +37,12 @@ const UserData = ({ username }) => {
   if (!userData) return <p>No data available</p>;
 
   return (
-    <div className="xl:w-6xl xl:mx-auto mx-12 flex flex-col md:gap-x-8 gap-y-12 md:gap-y-16 mb-16">
-      <div>
-        <UserCard userData={userData} />
-      </div>
-      <div>
-        <UserStats userData={userData} />
-      </div>
-      <div>
-        <h1 className="text-4xl text-center my-6 md:my-12 col-span-2 text-violet-300 font-bold">
-          Language Usage
-        </h1>
-        <UserLanguagesChart reposData={reposData} />
-      </div>
-      <div>
-        <h1 className="text-4xl text-center my-6 md:my-12 col-span-2 text-violet-300 font-bold">
-          Repositories
-        </h1>
-        <div className="grid grid-cols-1 gap-x-8 gap-y-6 md:gap-y-10 md:grid-cols-2">
-          {reposData
-            .filter((repo) => repo.name !== repo.owner.login)
-            .map((repo) => (
-              <RepoCard key={repo.id} repo={repo} />
-            ))}
-        </div>
-      </div>
+    <div className="flex flex-col items-center gap-y-8">
+      <UserHeader username={username} />
+      <UserInfoCard userData={userData} />
+      <UserStats userData={userData} />
+      <UserLanguagesChart reposData={reposData} />
+      <UserRepos reposData={reposData} />
     </div>
   );
 };

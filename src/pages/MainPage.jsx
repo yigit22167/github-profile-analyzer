@@ -19,11 +19,6 @@ const MainPage = () => {
         setSearchTerm={setSearchTerm}
         handleSubmit={handleSubmit}
       />
-      {username && (
-        <h1 className="text-center text-5xl text-slate-200 mb-12">
-          Overview of <span className="text-violet-400">{username}</span>
-        </h1>
-      )}
       {username && <UserData username={username} />}
     </div>
   );

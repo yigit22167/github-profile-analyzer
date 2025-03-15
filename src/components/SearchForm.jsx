@@ -5,22 +5,16 @@ import { FaGithub } from "react-icons/fa";
 
 const SearchForm = ({ searchTerm, setSearchTerm, handleSubmit }) => {
   return (
-    <div className="flex flex-col items-center py-24 mb-8">
-      <div className="text-center flex items-center px-4 py-12 text-4xl text-slate-300">
-        <FaGithub className="text-5xl" />
-        Analyze Github User
+    <div className="flex flex-col items-center mt-32 mb-12">
+      <div className="text-center px-4 flex items-center mb-8 text-4xl font-bold text-indigo-300">
+        <FaGithub className="shrink-0 mr-3 text-4xl" />
+        <h1>Analyze GitHub User</h1>
       </div>
       <form
-        className="flex items-center relative justify-center w-xs md:w-md"
+        className="flex items-center justify-center w-xs md:w-md"
         onSubmit={handleSubmit}
       >
         <SearchBar searchTerm={searchTerm} setSearchTerm={setSearchTerm} />
-        <button
-          className="cursor-pointer absolute right-1 rounded-full p-3 bg-slate-800 hover:bg-slate-900 transition-all text-white font-bold"
-          type="submit"
-        >
-          <IoSearch className="text-3xl" />
-        </button>
       </form>
     </div>
   );
