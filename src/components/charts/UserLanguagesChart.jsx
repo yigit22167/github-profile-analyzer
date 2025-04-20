@@ -43,7 +43,7 @@ const UserLanguagesChart = ({ reposData }) => {
   };
 
   return (
-    <div className="flex flex-col items-center justify-center mt-4">
+    <div className="flex flex-col items-center justify-center">
       <h1 className="text-4xl text-center col-span-2 mb-8 text-indigo-300 font-semibold">
         Language Usage
       </h1>
