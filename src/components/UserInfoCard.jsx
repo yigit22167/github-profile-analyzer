@@ -43,7 +43,7 @@ const UserInfoCard = ({ userData }) => {
         </div>
       </div>
       <a
-        className="text-slate-100 font-bold bg-indigo-800 cursor-pointer text-xl sm:self-start self-center mt-6 sm:mt-1.5 py-2.5 px-6 rounded-lg hover:bg-violet-300 transition-all"
+        className="text-slate-100 font-bold bg-indigo-800 cursor-pointer text-xl sm:self-start self-center mt-6 sm:mt-1.5 py-2.5 px-6 rounded-lg hover:bg-violet-700 transition-all"
         href={userData.html_url}
         target="_blank"
         rel="noopener noreferrer"
