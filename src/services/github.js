@@ -28,3 +28,8 @@ export const fetchCommits = async (username, repoName, since, until) => {
   );
   return response.data;
 };
+
+export const fetchRateLimit = async () => {
+  const response = await apiClient.get("/rate_limit");
+  return response.data;
+};
