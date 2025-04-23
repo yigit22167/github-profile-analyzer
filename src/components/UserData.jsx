@@ -8,6 +8,7 @@ import UserHeader from "./UserHeader";
 import UserRepos from "./UserRepos";
 import CommitActivityChart from "./charts/CommitActivityChart";
 import useUserData from "../hooks/useUserData";
+import RateLimit from "./RateLimit";
 
 const UserData = ({ username }) => {
   // Use the custom hook to fetch user data and repositories
@@ -38,6 +39,9 @@ const UserData = ({ username }) => {
 
       {/* list of user repositories */}
       <UserRepos reposData={reposData} />
+
+      {/* API rate limit remaining */}
+      <RateLimit />
     </div>
   );
 };
