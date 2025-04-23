@@ -1,32 +1,40 @@
-# GitHub Profile Visualizer
+# 🚀 GitHub Profile Visualizer
 
-This project is a **GitHub Profile Visualizer** that allows users to visualize GitHub repositories, language usage, and commit activity in an interactive way.
+A sleek web app to visualize GitHub profiles — explore repositories, language stats, and commit activity with beautiful interactive charts.
 
-## Features (Planned & Implemented)
+## Features
 
-- ✅ Display a list of a GitHub user's repositories.
-- ✅ Show key repo details (name, fork count, star count).
-- ✅ Interactive **Pie Chart** for programming language distribution.
-- ✅ View commit activity for top 3 recently updated repository via a **Line Chart**.
-- ✅ Improve UI & responsiveness.
-  
+- ✅ Display a GitHub user's public repositories
+- ✅ Show repository details (name, stars ⭐, forks 🍴)
+- ✅ Pie chart for **language distribution**
+- ✅ Line chart for last 6 months commit activity of top 3 recently updated repositories
+- ✅ Fully responsive UI with smooth styling
+
+---
+
 ## Tech Stack
 
-- **Frontend:** React, TailwindCSS
-- **State Management:** Tanstack Query
-- **Charts:** Chart.js
-- **API:** GitHub REST API
+| Layer           | Tools              |
+| --------------- | ------------------ |
+| **Frontend**    | React, TailwindCSS |
+| **State**       | TanStack Query     |
+| **Charts**      | Chart.js           |
+| **Data Source** | GitHub REST API    |
 
-## Live Demo
+---
 
-You can check out the live demo of the project [here](https://gitrepostats.vercel.app/).
+## 📺 Live Demo
+
+🔗 [git-profile-visualizer.vercel.app](https://git-profile-visualizer.vercel.app/)
+
+---
 
 ## How to Run Locally
 
 1. Clone the repository:
 
    ```sh
-   git clone https://github.com/yourusername/github-profile-visualizer.git
+   git clone https://github.com/yigit22167/github-profile-visualizer.git
 
    ```
 
@@ -58,4 +66,4 @@ You can check out the live demo of the project [here](https://gitrepostats.verce
 
 ### Status
 
-This project is currently a work in progress (WIP).
+Project is mostly done.
