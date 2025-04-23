@@ -4,7 +4,7 @@ import { FaRegStar } from "react-icons/fa";
 
 const RepoCard = ({ repo }) => {
   return (
-    <div className="border h-48 overflow-auto border-slate-700 flex flex-col p-4 rounded-xl bg-slate-800 cursor-pointer hover:-translate-y-1 transition delay-100 duration-250 ease-in-out hover:scale-101">
+    <div className="border h-48 overflow-y-auto scroll-wrapper border-slate-700 flex flex-col p-4 rounded-xl bg-slate-800 cursor-pointer hover:-translate-y-1 transition delay-100 duration-250 ease-in-out hover:scale-101">
       <div className="flex w-full justify-between items-center mb-2">
         <a href={repo.html_url} target="_blank">
           <h1 className="text-lg underline text-violet-400">{repo.name}</h1>

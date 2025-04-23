@@ -9,3 +9,27 @@ html,
 body {
   font-family: var(--font-inter);
 }
+
+.scroll-wrapper {
+  max-height: 70vh;
+  overflow-y: hidden;
+}
+
+.scroll-wrapper:hover {
+  overflow-y: auto;
+}
+
+.scroll-wrapper::-webkit-scrollbar {
+  width: 8px;
+}
+
+.scroll-wrapper::-webkit-scrollbar-track {
+  background: transparent;
+}
+
+.scroll-wrapper::-webkit-scrollbar-thumb {
+  background-color: #818cf8;
+  border-radius: 6px;
+  border: 2px solid transparent;
+  background-clip: content-box;
+}
