@@ -66,10 +66,19 @@ A sleek web app to visualize GitHub profiles — explore repositories, language 
 
 ### Screenshots
 
+Landing Page
 ![Screenshot1](assets/images/landingpage.png)
+
+User Info
 ![Screenshot2](assets/images/userinfo.png)
+
+User Language Usage
 ![Screenshot3](assets/images/languageusage.png)
+
+User Commit Activity for most recently updated 3 repos
 ![Screenshot4](assets/images/commitactivity.png)
+
+User's repositories and rate limit monitoring
 ![Screenshot5](assets/images/publicreposandratelimit.png)
 
 ### Status
