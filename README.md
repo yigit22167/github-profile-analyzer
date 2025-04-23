@@ -9,9 +9,7 @@ This project is a **GitHub Profile Visualizer** that allows users to visualize G
 - ✅ Interactive **Pie Chart** for programming language distribution.
 - ✅ View commit activity for top 3 recently updated repository via a **Line Chart**.
 - ✅ Improve UI & responsiveness.
-- ✅ Improve UI & responsiveness.
-- ✅ Improve UI & responsiveness.
-
+  
 ## Tech Stack
 
 - **Frontend:** React, TailwindCSS
