@@ -64,6 +64,14 @@ A sleek web app to visualize GitHub profiles — explore repositories, language 
    npm run dev
    ```
 
+### Screenshots
+
+![Screenshot1](assets/images/landingpage.png)
+![Screenshot2](assets/images/userinfo.png)
+![Screenshot3](assets/images/languageusage.png)
+![Screenshot4](assets/images/commitactivity.png)
+![Screenshot5](assets/images/publicreposandratelimit.png)
+
 ### Status
 
-Project is mostly done.
+Project is mostly finished.
