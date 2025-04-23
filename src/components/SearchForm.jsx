@@ -8,7 +8,7 @@ const SearchForm = ({ searchTerm, setSearchTerm, handleSubmit }) => {
     <div className="flex flex-col items-center mt-32 mb-12">
       <div className="text-center px-4 flex items-center mb-8 text-4xl font-bold text-indigo-300">
         <FaGithub className="shrink-0 mr-3 text-4xl" />
-        <h1>Analyze GitHub User</h1>
+        <h1>Visualize GitHub Profile</h1>
       </div>
       <form
         className="flex items-center justify-center w-xs md:w-md"

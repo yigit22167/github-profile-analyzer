@@ -5,7 +5,7 @@ const UserRepos = ({ reposData }) => {
   return (
     <div>
       <h1 className="text-4xl text-center mt-4 mb-8 col-span-2 text-indigo-300 font-semibold">
-        Repositories
+        Public Repositories
       </h1>
       <div className="sm:max-w-6xl mx-12 grid grid-cols-1 gap-x-8 gap-y-6 mb-12 md:gap-y-10 md:grid-cols-2">
         {reposData
