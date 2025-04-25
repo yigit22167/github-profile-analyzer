@@ -9,12 +9,14 @@ const useUserData = (username) => {
         queryKey: ["user", username],
         queryFn: () => fetchUserData(username),
         enabled: !!username,
+        refetchOnWindowFocus: false,
       },
       {
         // fetch users repositories
         queryKey: ["repos", username],
         queryFn: () => fetchUserRepos(username),
         enabled: !!username,
+        refetchOnWindowFocus: false,
       },
     ],
   });
